@@ -3,8 +3,8 @@ package org.example;
 public class Cat {
     String id;
     String url;
-    //String apikey = System.getenv().get("catapikey");
-    String apikey = "live_nnip2f7abrQhqPChOAM7KUXrZ2Ldbf3mRLQb5gJHRiyj0Dd2510Mo4Iph4uq6tRS";
+    String apikey = System.getenv().get("catapikey");
+    //String apikey =;
     String image;
 
     public String getId() {

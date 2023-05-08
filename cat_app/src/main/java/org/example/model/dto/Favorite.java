@@ -2,7 +2,7 @@ package org.example.model.dto;
 
 public class Favorite {
     String id;
-    String apikey = "live_nnip2f7abrQhqPChOAM7KUXrZ2Ldbf3mRLQb5gJHRiyj0Dd2510Mo4Iph4uq6tRS";
+    String apikey = APIKEY;
     String image_id;
     public Image image;
 
